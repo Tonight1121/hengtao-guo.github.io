@@ -92,10 +92,11 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+
               <tr>
                 <td style="padding:20px;width:25%;vertical-align:middle">
                   <div class="one">
-                    <img src='images/sliding_axial_view.gif' width=110%>
+                    <img src='images/SMPL-a/sliding_axial_view.gif' width=110%>
                   </div>
                 </td>
                 <td style="padding:20px;width:75%;vertical-align:middle">
@@ -115,7 +116,7 @@
                   <br>
                   <p></p>
                   <p>
-                    Introducing a learning-based method that uses medical scans to predict internal organ deformation
+                    We propose a learning-based method that uses medical scans to predict internal organ deformation
                     across various human poses, aiding radiotherapy and similar treatments. This approach builds a
                     patient-specific model encoding the organ's shape and elasticity, allowing for deformation
                     estimation based on the patient's current pose. This innovation offers clinicians precise guidance
@@ -146,7 +147,7 @@
                   <br>
                   <p></p>
                   <p>
-                    Proposing a deep contextual learning network (DCL-Net), which can efficiently exploit the image
+                    We propose a deep contextual learning network (DCL-Net), which can efficiently exploit the image
                     feature relationship between US frames and reconstruct 3D US volumes without any tracking device.
                     The proposed DCL-Net utilizes 3D convolutions over a US video segment for feature extraction. An
                     embedded self-attention module makes the network focus on the speckle-rich areas for better spatial
@@ -156,6 +157,140 @@
                   <a href="https://arxiv.org/abs/2006.07694">arxiv</a>
                   /
                   <a href="https://github.com/DIAL-RPI/FreehandUSRecon">code</a>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/USRecon/recon_vol.gif' width=110%>
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://https://ieeexplore.ieee.org/abstract/document/9891829">
+                    <span class="papertitle">Ultrasound Volume Reconstruction From Freehand Scans Without
+                      Tracking</span>
+                  </a>
+                  <br>
+                  <strong>Hengtao Guo</strong>,
+                  <a href="https://scholar.google.com/citations?user=P4Y_RSgAAAAJ&hl=en&oi=ao">Hanqing Chao</a>,
+                  <a href="https://ieeexplore.ieee.org/author/37395027100">Sheng Xu</a>,
+                  <a href="https://scholar.google.co.uk/citations?user=5hOjrW8AAAAJ&hl=en&oi=ao">Bradford J. Wood</a>,
+                  <a href="https://scholar.google.com/citations?user=8UYmQqkAAAAJ&hl=en&oi=sra">Jing Wang</a>,
+                  <a href="https://scholar.google.com/citations?user=qkIp7AEAAAAJ&hl=en&oi=ao">Pingkun Yan</a>
+                  <br>
+                  <em>IEEE Transactions on Biomedical Engineering</em>, 2022
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose a deep contextual-contrastive network, utilizing self-attention to focus on the
+                    speckle-rich areas to estimate spatial movement and then minimizes a margin ranking loss for
+                    contrastive feature learning. We train and validate the model on two independent datasets, evaluated
+                    with including the DICE of reconstructed organ segmentation.
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/KAMP/KAMP.jpg' width=110%>
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7007835/">
+                    <span class="papertitle">Knowledge-based Analysis for Mortality Prediction from CT Images</span>
+                  </a>
+                  <br>
+                  <strong>Hengtao Guo</strong>,
+                  <a href="https://scholar.google.com/citations?user=9WSsCZkAAAAJ&hl=en&oi=ao">Uwe Kruger</a>,
+                  <a href="https://scholar.google.com/citations?user=pjK2mQwAAAAJ&hl=en&oi=ao">Ge Wang</a>,
+                  <a href="https://www.massgeneral.org/doctors/17961/mannudeep-kalra">Mannudeep K. Kalra</a>,
+                  <a href="https://scholar.google.com/citations?user=qkIp7AEAAAAJ&hl=en&oi=ao">Pingkun Yan</a>
+                  <br>
+                  <em>IEEE Journal of Biomedical and Health Informatics</em>, 2019
+                  <br>
+                  <p></p>
+                  <p>
+                    This paper introduces a knowledge-based analytical method using deep convolutional neural network
+                    (CNN) for all-cause mortality prediction. The underlying approach combines structural image features
+                    extracted from CNNs, based on LDCT volume at different scales, and clinical knowledge obtained from
+                    quantitative measurements, to predict the mortality risk of lung cancer screening subjects.
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/FVReg/gif_pd_3.gif' width=110%>
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://ieeexplore.ieee.org/abstract/document/9989409">
+                    <span class="papertitle">Ultrasound Frame-to-Volume Registration via Deep Learning for
+                      Interventional Guidance</span>
+                  </a>
+                  <br>
+                  <strong>Hengtao Guo</strong>,
+                  <a href="https://scholar.google.com/citations?user=-wbE0RQAAAAJ&hl=en&oi=ao">Xuanang Xu</a>,
+                  <a href="https://scholar.google.com/citations?user=ms_5p0sAAAAJ&hl=en&oi=ao">Xinrui Song</a>,
+                  <a href="https://ieeexplore.ieee.org/author/37395027100">Sheng Xu</a>,
+                  <a href="https://scholar.google.com/citations?user=P4Y_RSgAAAAJ&hl=en&oi=ao">Hanqing Chao</a>,
+                  <a href="https://dial.rpi.edu/people/joshua-myers">Joshua Myers</a>,
+                  <a href="https://scholar.google.com/citations?user=XiMbUboAAAAJ&hl=en&oi=sra">Baris Turkbey</a>,
+                  <a href="https://irp.nih.gov/pi/peter-pinto">Peter A. Pinto</a>,
+                  <a href="https://scholar.google.co.uk/citations?user=5hOjrW8AAAAJ&hl=en&oi=ao">Bradford J. Wood</a>,
+                  <a href="https://scholar.google.com/citations?user=qkIp7AEAAAAJ&hl=en&oi=ao">Pingkun Yan</a>
+                  <br>
+                  <em>IEEE Journal of Biomedical and Health Informatics</em>, 2019
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose a novel US frame-to-volume registration (FVReg) pipeline to bridge the dimensionality gap
+                    between 2-D US frames and 3-D US volume. The developed pipeline is implemented using deep neural
+                    networks, which are fully automatic without requiring external tracking devices. We validated our
+                    method on a clinical dataset with 618 subjects and tested its potential on real-time 2-D-US to
+                    3-D-MR fusion navigation tasks. The proposed FVReg achieved an average target navigation error of
+                    1.93 mm at 5 to 14 fps.
+                  </p>
+                  <a href="https://github.com/DIAL-RPI/Frame-to-Volume-Registration">code</a>
+                </td>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/Tri2D-Net/attention.JPEG' width=110%>
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://www.nature.com/articles/s41467-021-23235-4">
+                    <span class="papertitle">Deep learning predicts cardiovascular disease risks from lung cancer
+                      screening low dose computed tomography</span>
+                  </a>
+                  <br>
+                  <a href="https://scholar.google.com/citations?user=P4Y_RSgAAAAJ&hl=en&oi=ao">Hanqing Chao</a>,
+                  <a href="https://scholar.google.com/citations?user=RYfSzKwAAAAJ&hl=en&oi=ao">Hongming Shan</a>,
+                  <a href="https://scholar.google.com/citations?user=kek-c3wAAAAJ&hl=en&oi=ao">Fatemeh Homayounieh</a>,
+                  <a href="https://scholar.google.com/citations?user=286ZiX4AAAAJ&hl=en&oi=sra">Ramandeep Singh</a>,
+                  <a href="https://scholar.google.com/citations?user=mWUFHzcAAAAJ&hl=en&oi=sra">Ruhani Doda Khera</a>,
+                  <strong>Hengtao Guo</strong>,
+                  <a href="https://www.nature.com/search?author=Timothy%20Su">Timothy Su</a>,
+                  <a href="https://scholar.google.com/citations?user=pjK2mQwAAAAJ&hl=en&oi=ao">Ge Wang</a>,
+                  <a href="https://www.massgeneral.org/doctors/17961/mannudeep-kalra">Mannudeep K. Kalra</a>,
+                  <a href="https://scholar.google.com/citations?user=qkIp7AEAAAAJ&hl=en&oi=ao">Pingkun Yan</a>
+                  <br>
+                  <em>Nature Communications</em>, 2021
+                  <br>
+                  <p></p>
+                  <p>
+                    We propose a novel US frame-to-volume registration (FVReg) pipeline to bridge the dimensionality gap
+                    between 2-D US frames and 3-D US volume. The developed pipeline is implemented using deep neural
+                    networks, which are fully automatic without requiring external tracking devices. We validated our
+                    method on a clinical dataset with 618 subjects and tested its potential on real-time 2-D-US to
+                    3-D-MR fusion navigation tasks. The proposed FVReg achieved an average target navigation error of
+                    1.93 mm at 5 to 14 fps.
+                  </p>
                 </td>
               </tr>
           </table>
